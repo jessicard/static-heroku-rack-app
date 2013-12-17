@@ -3,7 +3,6 @@
 .bundle
 .config
 .DS_Store
-.env.development
 coverage
 InstalledFiles
 lib/bundler/man
