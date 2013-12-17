@@ -13,16 +13,16 @@ See live example [here](http://static-heroku-rack-app.herokuapp.com/).
 Install the required gems:
 
 1. `gem install bundler`
-2. `bundle install`
-3. `bundle exec rackup`
-4. Visit <http://localhost:9292>
+1. `bundle install`
+1. `bundle exec rackup`
+1. Visit <http://localhost:9292>
 
 Push it to your [Heroku](http://heroku.com) account:
 
 1. `gem install heroku`
-2. `heroku login`
-2. `heroku create --stack=cedar mynewapp`
-3. `git push heroku master`
+1. `heroku login`
+1. `heroku create --stack=cedar mynewapp`
+1. `git push heroku master`
 
 
 ## New Relic Availability Monitoring
