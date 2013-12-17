@@ -1,7 +1,7 @@
 static-heroku-rack-app
 ======================
 
-This is a skeleton for a static Heroku app using [Rack](https://devcenter.heroku.com/articles/static-sites-ruby/) and [HTML5 Boilerplate](http://html5boilerplate.com/).
+This is a skeleton for a single page static Heroku app using [Rack](https://devcenter.heroku.com/articles/static-sites-ruby/) and [HTML5 Boilerplate](http://html5boilerplate.com/).
 
 This app also uses the free [New Relic](https://addons.heroku.com/newrelic/) add-on (with a free [New Relic](http://newrelic.com/) account) to keep the free Heroku instance spun up using the New Relic Availability Monitoring.
 
