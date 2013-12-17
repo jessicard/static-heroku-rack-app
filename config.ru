@@ -1,7 +1,6 @@
 ENV['RACK_ENV'] ||= 'development'
 
 require 'rubygems'
-require 'bundler/setup'
 
 if ENV['RACK_ENV'] == 'production'
   require 'newrelic_rpm'

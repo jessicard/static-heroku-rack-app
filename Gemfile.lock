@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    dotenv (0.9.0)
     newrelic_rpm (3.7.0.177)
     rack (1.5.2)
 
@@ -9,6 +8,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dotenv
   newrelic_rpm
   rack
