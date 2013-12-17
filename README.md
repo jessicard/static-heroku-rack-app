@@ -31,36 +31,35 @@ Heroku automatically spins down its free applications after 60 minutes of no tra
 To setup New Relic:
 
 1. Create free [New Relic](http://newrelic.com/) account
-2. Add free [New Relic](https://addons.heroku.com/newrelic/) Heroku add-on via command line
+1. Add free [New Relic](https://addons.heroku.com/newrelic/) Heroku add-on via command line
 
-```bash
-heroku addons:add newrelic
-```
+    ```bash
+    heroku addons:add newrelic
+    ```
 
-3. Update your Heroku NEW_RELIC_APP_NAME config variable via command line
+1. Update your Heroku NEW_RELIC_APP_NAME config variable via command line
 
-```bash
-heroku config:set NEW_RELIC_APP_NAME=enter-name-here
-```
+    ```bash
+    heroku config:set NEW_RELIC_APP_NAME=enter-name-here
+    ```
 
-4. Update your Heroku NEW_RELIC_LICENSE_KEY config variable via command line (find your New Relic license key under Account Settings)
+1. Update your Heroku NEW_RELIC_LICENSE_KEY config variable via command line (find your New Relic license key under Account Settings)
 
-```bash
-heroku config:set NEW_RELIC_APP_NAME=enter-license-key-here
-```
+    ```bash
+    heroku config:set NEW_RELIC_APP_NAME=enter-license-key-here
+    ```
 
-You should see your app show up in your New Relic dashboard. From there:
-
-5. Browse to Menu > Availability Monitoring (under Settings)
-6. Click “Turn on Availability Monitoring”
-7. Enter the URL to ping
+1. View your New Relic dashboard - you should see your app name there.
+1. Browse to Menu > Availability Monitoring (under Settings)
+1. Click “Turn on Availability Monitoring”
+1. Enter the URL to ping
 
 New Relic should now be pinging your app every 30 seconds, making it so Heroku doesn't spin down the instance.
 
 
 ## Authors
 
-  * Jessica Dillon / [@jessicard](https:github.com/jessicard)
+  * Jessica Dillon / [@jessicard](//www.github.com/jessicard)
 
 
 ## Contributing
