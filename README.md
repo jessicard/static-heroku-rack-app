@@ -49,7 +49,7 @@ To setup New Relic:
 1. Update your Heroku NEW_RELIC_LICENSE_KEY config variable via command line (find your New Relic license key under Account Settings)
 
     ```bash
-    heroku config:set NEW_RELIC_APP_NAME=enter-license-key-here
+    heroku config:set NEW_RELIC_LICENSE_KEY=enter-license-key-here
     ```
 
 1. View your New Relic dashboard - you should see your app name there.
